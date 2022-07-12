@@ -16,7 +16,7 @@
       <legend>Cadastro de Produto</legend>
       <form action="registraProduto.php" method="post" class="form" enctype="multipart/form-data">
         <div class="card col-4 offset-4">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Foto do aluno" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Foto do Produto" preserveAspectRatio="xMidYMid slice" focusable="false">
             <title>Placeholder</title>
             <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Foto do Produto</text>
           </svg>
@@ -29,7 +29,7 @@
         <div class="mb-3 form-group">
           <label for="nomeId" class="form-label">Nome</label>
           <input type="text" name="nome" id="nomeId" class="form-control" placeholder="Informe o nome" >
-          <div id="helperNome" class="form-text">Informe o nome do Prdouto</div>
+          <div id="helperNome" class="form-text">Informe o nome do Prodouto</div>
         </div>
         <div class="mb-3 form-group">
           <label for="descriptionId" class="form-label">Descrição</label>

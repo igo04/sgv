@@ -29,17 +29,18 @@
                 <?php foreach(fnLocalizaProdutoPorNome($nome) as $produto): ?>
                 <tr>
                    
+        
                 <div class="card mb-3" style="max-width: 540px;">
                 <div class="row g-0">
                     <div class="col-md-4">
                     <img src="<?php $produto->foto ?>" class="img-fluid rounded-start" alt="...">
+                    </div>
                     <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title"><?= $produto->nome ?></h5>
                         <p class="card-text"><?= $produto->description ?></p>
                         <p class="card-text"><?= $produto->price?></p>
                         <p class="card-text"><small class="text-muted"><?= $produto->created_at ?></small></p>
-                        
                     </div>
                     </div>
                 </div>

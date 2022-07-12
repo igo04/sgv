@@ -1,0 +1,16 @@
+{
+    "name": "thiago/sgv",
+    "description": "Sistema de vitrine de Produtos",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "igo04",
+            "email": "thiagoosilva29@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    }
+}
